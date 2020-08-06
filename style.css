@@ -72,10 +72,11 @@ h2{
 .love-img{
     width: 8%;
     display: inline-block;
-    
+    height: 5%;
     margin-bottom: 20px;
     position: absolute;
-    left: 85%;
+    left: 50%;
+    margin-left: 100px;
 }
 
 .pin-svg{
