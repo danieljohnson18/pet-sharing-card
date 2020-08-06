@@ -28,6 +28,7 @@ body{
 .dot{
     position: absolute;
     right: 30px;
+    font-size: 30px;
 }
 
 .cat-img{
