@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Avenir', sans-serif;
+    
+}
+body{
+    background-color: #888888;
+}
+
+.header{
+    
+    padding: 20px 20px 0 20px;
+    background-image: url(cat.svg);
+    position: relative;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px white solid;
+    background-repeat: no-repeat;
+    background-size: 600px 350px;
+    background-color: white;
+}
+
+.back-svg{
+    width: 10%;
+    height: 8%;
+}
+
+.dot{
+    position: absolute;
+    right: 30px;
+}
+
+.cat-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.container{
+    width: 600px;
+    background-color: #ffffff;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 3%;
+    box-shadow: 5px 10px 8px #000000;
+}
+
+.container2{
+    border-radius: 40px;
+    border-top: 3px solid grey;
+}
+
+.content{
+    padding: 20px;
+    
+    top: 20px;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 1px;
+}
+h2{
+    font-size: 14px;
+    padding-left: 10px;
+    display: inline-block;
+    margin-top: 1px;
+}
+
+.love-img{
+    width: 8%;
+    display: inline-block;
+    
+    margin-bottom: 20px;
+    position: absolute;
+    left: 85%;
+}
+
+.pin-svg{
+    width: 5%;
+    height: 2%;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.details{
+    border: 1px grey solid;
+    border-radius: 10px;
+}
+
+p{
+    padding: 10px 20px;
+    line-height: 2;
+    margin-top: 10px;
+}
+
+h5{
+    font-size: 2rem;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-weight: 700;
+}
+
+.profile-img{
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+a{
+    background-color: black;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    margin-left: 30px;
+    font-size: 14px;
+    
+}
+
+a:hover{
+    font-size: 16px;
+    transition: ease-in-out 0.5s;
+}
+
+.footer{
+    padding: 20px
+}
+
+h6{
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+h7{
+
+}
